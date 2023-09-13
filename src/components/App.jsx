@@ -55,7 +55,7 @@ const handleSubmit = (evt) => {
 };
 
 const handleLoadMore = () => {
-  setPage(prevPage => prevPage.page + 1);    
+  setPage(prevPage => prevPage + 1);    
 };
 
 const handleOpenModal = ()=> {
